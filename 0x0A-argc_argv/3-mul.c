@@ -56,7 +56,7 @@ int main(int ac, char *av[])
 	int n2;
 	int res;
 
-	if (ac < 3)
+	if (ac != 3)
 	{
 		printf("Error");
 		return (1);
