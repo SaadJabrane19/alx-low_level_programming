@@ -58,7 +58,7 @@ int main(int ac, char *av[])
 
 	if (ac != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	n1 = _atoi(av[1]);
